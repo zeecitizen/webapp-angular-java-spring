@@ -1,0 +1,23 @@
+
+<h1 style="text-align:center">Welcome to Property Booking</h1>
+<div style="text-align:center">
+<input name="type" placeholder="Enter Place Type Here" [(ngModel)]="type" />
+<input name="keyword" placeholder="Enter Keyword Here" [(ngModel)]="keyword" />
+<button (click)="placesSearch()">Submit</button>
+<button style="float:right" (click)="viewBookings()">Show Bookings</button>
+</div>
+
+<div *ngIf="searchResults; else elseBlock">
+  <ul class="list">
+    <li [ngStyle]="{'background-color' : (i % 2 === 0) ? 'silver' : 'white'}" class="list_item" *ngFor="let result of searchResults.results; index as i;">
+      <img class="avatar" [src]="result.icon" /> 
+      <p> Latitudes are as follows: {{result.geometry.location.lat}} </p>
+      <h4 class="title">{{result.name}} <br>
+          <small> Rating {{result.rating}}</small> 
+          <small class="booked" *ngIf="checkBookings(result)"> Booking Successful !</small>
+      </h4>
+      <button (click)="addBookings(result)" >Book</button>
+    </li>
+  </ul>
+</div>
+<ng-template #elseBlock> No Results </ng-template>

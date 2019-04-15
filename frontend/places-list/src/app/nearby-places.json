@@ -1,0 +1,51 @@
+{
+    "geometry": {
+      "location": {
+        "lat": 48.191332,
+        "lng": 11.6207235
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.19274107989273,
+          "lng": 11.62201237989272
+        },
+        "southwest": {
+          "lat": 48.19004142010728,
+          "lng": 11.61931272010728
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "id": "6105ed54199308e2776c64df6bc343badb866d2e",
+    "name": "China Restaurant Bon Sai",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113843309685083845511/photos\">Sonja Muenchen</a>"
+        ],
+        "photo_reference": "CmRaAAAAv6ZAw9kSJ0hHdGFV3zHNRCAiIxs-uphETZ5eIFaZecnn4lYjN0YG6oMPa1Ggo-6uOhpcfY9XfuZ0ZNygRrocTRRBWBJTK3KbamuUg6Tl2pmp6hgoMR-jMmO5AKfXaN0tEhCwA4XcjAcDdAETDiaW1bTlGhT0d3oB3sEK306AkxuJXoJNpIQqNQ",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJEdrTY2B0nkcRlOYDjdSHtTM",
+    "plus_code": {
+      "compound_code": "5JRC+G7 München",
+      "global_code": "8FWH5JRC+G7"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJEdrTY2B0nkcRlOYDjdSHtTM",
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 368,
+    "vicinity": "Freisinger Landstraße 28, München"
+  }
