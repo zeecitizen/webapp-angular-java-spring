@@ -1,0 +1,11 @@
+
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(®¤§Áûÿÿÿÿ8è¼£¼¡-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šõ”8ŸéœéŸ-
+ksquid:S4488!"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ç¼˜ºıÿÿÿÿ8ÖÆÏ»¡-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šõ”8Ä®éŸ-
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Ìô‰Ï8¦’ş»¡-
+fsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ŞÎ¬‹8ñ“ ¼¡-
+Osquid:S1068",Remove this unused "template" private field.(…õúÿÿÿÿ8¸Œûò¡-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…õúÿÿÿÿ
