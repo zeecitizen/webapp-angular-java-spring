@@ -1,4 +1,3 @@
-/*
 package limeapp;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -68,4 +67,4 @@ public class BookingControllerTests {
     }
 
 }
-*/
+
