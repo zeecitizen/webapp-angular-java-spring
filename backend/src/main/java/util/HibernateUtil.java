@@ -6,6 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+@Deprecated
 public class HibernateUtil {
 
   Configuration con;
@@ -18,7 +19,7 @@ public class HibernateUtil {
 
   public boolean addBookingtoDB(Booking booking) {
     try (Session session = sf.openSession()) {
-      session.save(Long.toString(booking.getId()), booking);
+      session.save(Long.toString(booking.getBookingID()), booking);
     } catch (HibernateException e) {
       return false;
     }

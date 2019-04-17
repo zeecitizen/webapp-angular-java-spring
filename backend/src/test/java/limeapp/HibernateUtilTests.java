@@ -11,12 +11,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import util.HibernateUtil;
 
+@Deprecated
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
 public class HibernateUtilTests {
   @Autowired
   private MockMvc mockMvc;
+
   private HibernateUtil util;
 
   @Before
@@ -28,8 +30,11 @@ public class HibernateUtilTests {
   public void testRetreiveObject()
       throws Exception {
 
-    Booking booking = new Booking(1, "PropertyId","PropertyName","City");
-    util.addBookingtoDB(booking);
+    Booking createdBooking = new Booking.BookingBuilder().bookingID()
+        .property_ID("1")
+        .property_name("PropertyName")
+        .city("City").createBooking();
+    util.addBookingtoDB(createdBooking);
     util.retrieveBookingFromDB("1");
   }
 }

@@ -1,9 +1,16 @@
 package limeapp.util;
 
-/**
- * Created by zeecitizen on 4/15/2019.
- */
+import limeapp.model.Booking;
+
 public class BookingControllerTestsUtil {
-  public static final String MAKE_BOOKING_SAMPLE="";
+
+  public static Booking getDummyBooking() {
+    Booking createdBooking = new Booking.BookingBuilder().bookingID()
+        .property_ID("1")
+        .property_name("PropertyName")
+        .city("City").createBooking();
+
+    return createdBooking;
+  }
 
 }

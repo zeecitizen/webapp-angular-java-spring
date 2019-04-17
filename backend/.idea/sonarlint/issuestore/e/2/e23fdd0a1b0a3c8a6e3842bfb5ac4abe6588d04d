@@ -1,0 +1,8 @@
+
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤©ˆÑ8Éé»Ü¢-
+psquid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ª¾©8Éé»Ü¢-
+_squid:S1126E"AReplace this if-then-else statement by a single return statement.(º’‰8´ş¼Ü¢-
+usquid:S00116"VRename this field "property_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú•÷¨8­¥ºÜ¢-
+Dsquid:S1905O"&Remove this unnecessary cast to "int".(¨˜›8Éé»Ü¢-
+wsquid:S00116"XRename this field "property_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áûó8Éé»Ü¢-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤©ˆÑ8Éé»Ü¢-

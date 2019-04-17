@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: limeapp.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.638 s <<< FAILURE! - in limeapp.AppTest
+initializationError(limeapp.AppTest)  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

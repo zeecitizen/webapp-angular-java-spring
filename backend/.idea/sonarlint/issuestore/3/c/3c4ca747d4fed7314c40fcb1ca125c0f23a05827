@@ -1,3 +1,7 @@
 
-`squid:HiddenFieldCheck"7Rename "con" which hides the field declared at line 11.(àÐ½–8éÿšõ¡-
-dsquid:HiddenFieldCheck"6Rename "sf" which hides the field declared at line 12.(ï¶ù•ýÿÿÿÿ8éÿšõ¡-
+Xsquid:S1133
+"5Do not forget to remove this deprecated code someday.(‡Œïøþÿÿÿÿ8ó—ÝÛ¢-
+\squid:MissingDeprecatedCheck
+"(Add the missing @deprecated Javadoc tag.(‡Œïøþÿÿÿÿ8ó—ÝÛ¢-
+`squid:HiddenFieldCheck"7Rename "con" which hides the field declared at line 12.(àÐ½–8éÿšõ¡-
+dsquid:HiddenFieldCheck"6Rename "sf" which hides the field declared at line 13.(ï¶ù•ýÿÿÿÿ8éÿšõ¡-

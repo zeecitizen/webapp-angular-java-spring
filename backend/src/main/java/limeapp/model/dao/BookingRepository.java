@@ -1,29 +1,20 @@
 package limeapp.model.dao;
 
 import limeapp.model.Booking;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Repository;
+import java.util.List;
+import java.util.Optional;
 
-@Repository
-public class BookingRepository {
-  @Autowired
-  JdbcTemplate jdbcTemplate;
+public interface BookingRepository {
 
-  public Booking findById(long id) {
-    return jdbcTemplate.queryForObject("select * from booking where id=?", new Object[] { id },
-        new BeanPropertyRowMapper<Booking>(Booking.class));
-  }
+  int createBooking(Booking booking) throws RepositoryException;
 
-  public int deleteById(long id) {
-    return jdbcTemplate.update("delete from booking where id=?", new Object[] { id });
-  }
+  void updateBooking(Booking booking) throws RepositoryException;
 
+  void deleteBooking(int bookingID) throws RepositoryException;
 
-  public int save(Booking booking) {
-    return jdbcTemplate.update("insert into booking (id, property_id, property_name, city) " + "values(?,  ?, ?, ?)",
-        new Object[] { booking.getId(), booking.getProperty_id(), booking.getProperty_name(), booking.getCity()});
-  }
+  List<Booking> findBookings(String search) throws RepositoryException;
 
+  List<Booking> findAllBookings() throws RepositoryException;
+
+  Optional<Booking> getBooking(int bookingID) throws RepositoryException;
 }

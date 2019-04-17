@@ -1,5 +1,14 @@
 
-tsquid:S00116"VRename this field "property_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÙÿq8ÖŸúèŸ-
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹«¸úÿÿÿÿ8ñûèŸ-
-|squid:S00116"XRename this field "property_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úôòéıÿÿÿÿ8Ë‘ûèŸ-
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹«¸úÿÿÿÿ8ñûèŸ-
+usquid:S00117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¥Û¶ÿÿÿÿÿ8ºŸ•Ú¢-
+wsquid:S00116"XRename this field "property_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áûó8ºŸ•Ú¢-
+osquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÏà8ºŸ•Ú¢-
+Lsquid:S1481I")Remove this unused "temp" local variable.(‹¸Òÿÿÿÿÿ8ºŸ•Ú¢-
+osquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÏà8ºŸ•Ú¢-
+usquid:S00116
+"VRename this field "property_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú•÷¨8¦Õ†Ú¢-
+msquid:S00100q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úõó˜8ºŸ•Ú¢-
+dsquid:S1126?"AReplace this if-then-else statement by a single return statement.(˜—›¡ùÿÿÿÿ8ºŸ•Ú¢-
+wsquid:S00116W"XRename this field "property_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áûó8ºŸ•Ú¢-
+usquid:S00116V"VRename this field "property_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú•÷¨8ºŸ•Ú¢-
+psquid:S00117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úõó˜8ºŸ•Ú¢-
+rsquid:S00100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¥Û¶ÿÿÿÿÿ8ºŸ•Ú¢-

@@ -9,6 +9,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import java.nio.charset.Charset;
 import java.util.Random;
 import limeapp.model.Booking;
+import limeapp.util.BookingControllerTestsUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
+import util.GsonUtil;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -43,11 +45,11 @@ public class BookingControllerTests {
     public void givenUserExists_whenUserInfoIsRetrieved_thenJSONIsReceived()
         throws Exception {
 
-        Booking booking = new Booking(1, "PropertyId","PropertyName","City");
+        Booking booking = BookingControllerTestsUtil.getDummyBooking();
 
         this.mockMvc.perform(get("/properties/{id}/bookings").param("id", "1"))
             .andDo(print()).andExpect(status().isOk())
-            .andExpect(content().json(booking.toJson()));
+            .andExpect(content().json(GsonUtil.getInstance().toJson(booking)));
     }
 
     @Test
