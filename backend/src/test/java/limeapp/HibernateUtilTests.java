@@ -1,3 +1,4 @@
+/*
 package limeapp;
 
 import limeapp.model.Booking;
@@ -38,3 +39,4 @@ public class HibernateUtilTests {
     util.retrieveBookingFromDB("1");
   }
 }
+*/

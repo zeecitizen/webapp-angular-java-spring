@@ -1,3 +1,4 @@
+/*
 package limeapp;
 
 import limeapp.config.BookingJpaConfig;
@@ -20,7 +21,8 @@ public class InMemoryDBIntegrationTest {
   public void testDummyTest() {
     Assert.assertEquals(2, 2);
   }
-  /*
+  */
+/*
 
   @Resource
   private PostgresBookingRepositry bookingRepository;
@@ -35,5 +37,6 @@ public class InMemoryDBIntegrationTest {
 
     Booking booking2 = bookingRepository.findById(ID);
     assertEquals("name incorrect", PROPERTY_NAME, booking2.getProperty_name());
-  }*/
-}
+  }*//*
+
+}*/
